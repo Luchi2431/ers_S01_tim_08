@@ -1,0 +1,22 @@
+6/16/2025 11:17:45 AM: Sacuvano merenje za uredjaj 73da1d4e-8ce2-483c-ab1f-d22ed8181e02: 62.97716215169834 [DIGITALNA]
+
+6/16/2025 11:17:50 AM: Sacuvano merenje za uredjaj 73da1d4e-8ce2-483c-ab1f-d22ed8181e02: 23.21589316200582 [ANALOGNA]
+
+6/16/2025 11:17:55 AM: Sacuvano merenje za uredjaj 73da1d4e-8ce2-483c-ab1f-d22ed8181e02: 88.36826317370947 [ANALOGNA]
+
+6/16/2025 11:18:00 AM: Sacuvano merenje za uredjaj 73da1d4e-8ce2-483c-ab1f-d22ed8181e02: 11.153340857269855 [ANALOGNA]
+
+6/16/2025 11:22:57 AM: Sacuvano merenje za uredjaj 4367760b-3d42-4bdb-b140-3be021a963ec: 38.22880232246506 [ANALOGNA]
+
+6/16/2025 11:23:02 AM: Sacuvano merenje za uredjaj 1a09a186-a351-48c9-b196-dda85114eec8: 57.677892261335685 [ANALOGNA]
+
+6/16/2025 11:23:02 AM: Sacuvano merenje za uredjaj 98d78b83-7513-444f-a4da-9335c5594c2c: 74.48694228095103 [DIGITALNA]
+
+6/16/2025 11:23:07 AM: Sacuvano merenje za uredjaj 1a09a186-a351-48c9-b196-dda85114eec8: 93.55077125215936 [DIGITALNA]
+
+6/16/2025 11:23:07 AM: Sacuvano merenje za uredjaj 98d78b83-7513-444f-a4da-9335c5594c2c: 5.772456010777127 [DIGITALNA]
+
+6/16/2025 11:23:12 AM: Sacuvano merenje za uredjaj 1a09a186-a351-48c9-b196-dda85114eec8: 5.604895265791765 [DIGITALNA]
+
+6/16/2025 11:23:12 AM: Sacuvano merenje za uredjaj 98d78b83-7513-444f-a4da-9335c5594c2c: 81.59413939857136 [ANALOGNA]
+
