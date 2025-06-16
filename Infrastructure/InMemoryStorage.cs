@@ -1,6 +1,8 @@
-﻿using Domain.Models;
+﻿using Domain.Interfaces;
+using Domain.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,28 +10,33 @@ using System.Threading.Tasks;
 
 namespace Infrastructure
 {
-    public class InMemoryStorage
+    public class InMemoryStorage : IStorage
     {
         //Kreiramo dictionary za merenja
-        private readonly Dictionary<string, Device> _devices = new Dictionary<string, Device>();
+        private readonly Dictionary<string, List<Merenja>> _data = new Dictionary<string, List<Merenja>>();
+        private readonly string logFilePath = "log.txt";
 
         //Cuvamo dobijena merenja
         public void SaveMerenja(string deviceId, Merenja merenje)
         {
             //Ako ne postoji uredjaj kreira se novi
-            if (!_devices.ContainsKey(deviceId))
-                _devices[deviceId] = new Device { Id = deviceId };
+            if (!_data.ContainsKey(deviceId))
+                _data[deviceId] = new List<Merenja>();
 
-            _devices[deviceId].IzmereneVrednosti.Add(merenje);
+            _data[deviceId].Add(merenje);
+
+            //Logovanje dogadjaja
+            LogEvent($"Sacuvano merenje za uredjaj {deviceId}: {merenje.Vrednost} [{merenje.Tip}]");
         }
         //Uzimamo merenja
-        public IEnumerable<Merenja> GetMerenja(string deviceId)
+        public List<Merenja> GetMerenjaByDevice(string deviceId)
         {
-            if (_devices.TryGetValue(deviceId,out var device))
-            {
-                return device.IzmereneVrednosti;
-            }
-            return Enumerable.Empty<Merenja>();
+            return _data.ContainsKey(deviceId) ? _data[deviceId] : new List<Merenja>();
+        }
+
+        public void LogEvent(string message)
+        {
+            File.AppendAllText(logFilePath, $"{DateTime.UtcNow}: {message}{Environment.NewLine}\n");
         }
     }
 }
