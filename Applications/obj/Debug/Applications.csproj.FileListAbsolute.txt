@@ -1,0 +1,11 @@
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Applications\bin\Debug\Applications.dll
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Applications\bin\Debug\Applications.pdb
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Applications\bin\Debug\Domain.dll
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Applications\bin\Debug\Infrastructure.dll
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Applications\bin\Debug\Domain.pdb
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Applications\bin\Debug\Infrastructure.pdb
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Applications\obj\Debug\Applications.csproj.AssemblyReference.cache
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Applications\obj\Debug\Applications.csproj.CoreCompileInputs.cache
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Applications\obj\Debug\Applicat.B7D1A39B.Up2Date
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Applications\obj\Debug\Applications.dll
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Applications\obj\Debug\Applications.pdb

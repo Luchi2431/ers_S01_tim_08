@@ -1,0 +1,9 @@
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Infrastructure\obj\Debug\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Infrastructure\obj\Debug\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Infrastructure\obj\Debug\Infrastructure.pdb
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Infrastructure\bin\Debug\Domain.dll
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Infrastructure\bin\Debug\Domain.pdb
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Infrastructure\obj\Debug\Infrastr.15EFFBFE.Up2Date
