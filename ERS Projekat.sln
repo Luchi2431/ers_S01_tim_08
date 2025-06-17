@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Applications", "Applications\Applications.csproj", "{A4A7102F-CD21-4D77-9B59-E77BD4973E6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{769C031B-281A-44B3-81B7-5698B0106480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation", "Presentation\Presentation.csproj", "{769C031B-281A-44B3-81B7-5698B0106480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{C22741FB-047C-47B8-8566-AEE24634569D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{769C031B-281A-44B3-81B7-5698B0106480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{769C031B-281A-44B3-81B7-5698B0106480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{769C031B-281A-44B3-81B7-5698B0106480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22741FB-047C-47B8-8566-AEE24634569D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22741FB-047C-47B8-8566-AEE24634569D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22741FB-047C-47B8-8566-AEE24634569D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22741FB-047C-47B8-8566-AEE24634569D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

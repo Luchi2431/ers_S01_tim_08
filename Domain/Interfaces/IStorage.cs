@@ -12,5 +12,7 @@ namespace Domain.Interfaces
         void SaveMerenja(string deviceId, Merenja merenje);
         List<Merenja> GetMerenjaByDevice(string deviceId);
         void LogEvent(string message); //logovanje dogadjaja
+        DateTime GetLastUpdateTime(string deviceId);
+        List<string> GetAllDeviceIds();
     }
 }

@@ -34,9 +34,26 @@ namespace Infrastructure
             return _data.ContainsKey(deviceId) ? _data[deviceId] : new List<Merenja>();
         }
 
+        //Logovanje dogadjaja u fajl
         public void LogEvent(string message)
         {
             File.AppendAllText(logFilePath, $"{DateTime.UtcNow}: {message}{Environment.NewLine}\n");
+        }
+
+        public DateTime GetLastUpdateTime(string deviceId)
+        {
+            //Vracamo najnovije vreme merenja za dati uredjaj
+            if (_data.ContainsKey(deviceId) && _data[deviceId].Any())
+            {
+                return _data[deviceId].Max(m => m.TimeStamp);
+            }
+            return DateTime.MinValue;
+        }
+
+        //Vracamo sve ID-ove uredjaja(Sve Deviceove)
+        public List<string> GetAllDeviceIds()
+        {
+            return _data.Keys.ToList();
         }
     }
 }
