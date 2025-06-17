@@ -1,4 +1,5 @@
-﻿using Domain.Interfaces;
+﻿using Applications;
+using Domain.Interfaces;
 using Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -11,13 +12,13 @@ namespace Proxy.Services
 {
     public class ProxyService
     {
-        private readonly IStorage _serverStorage;
+        private readonly ServerService _serverService;
         private readonly Dictionary<string, ProxyCacheItem> _cache = new Dictionary<string, ProxyCacheItem>();
         private readonly Timer _cleanupTimer;
 
-        public ProxyService(IStorage serverStorage)
+        public ProxyService(ServerService serverService)
         {
-            _serverStorage = serverStorage;
+            _serverService = serverService;
 
             // Pokretanje timera za čišćenje keša
             _cleanupTimer = new Timer(_ => Cleanup(), null, TimeSpan.Zero, TimeSpan.FromMinutes(5));
@@ -30,7 +31,7 @@ namespace Proxy.Services
             {
                 var cacheItem = _cache[deviceId];
                 // Provera da li je kes azuriran
-                var serverLastUpdate = _serverStorage.GetLastUpdateTime(deviceId);
+                var serverLastUpdate = _serverService.GetLastUpdateTime(deviceId);
                 if (serverLastUpdate > cacheItem.LastUpdated)
                 {
                     return RefreshFromServer(deviceId);
@@ -47,8 +48,8 @@ namespace Proxy.Services
         //Ova funkcija osvežava podatke iz servera i ažurira kes
         public List<Merenja> RefreshFromServer(string deviceId)
         {
-            var merenja = _serverStorage.GetMerenjaByDevice(deviceId);
-            var updated = _serverStorage.GetLastUpdateTime(deviceId);
+            var merenja = _serverService.VratiMerenjaZaUredjaj(deviceId);
+            var updated = _serverService.GetLastUpdateTime(deviceId);
             
             _cache[deviceId] = new ProxyCacheItem
             {
@@ -73,11 +74,18 @@ namespace Proxy.Services
 
         public List<Merenja> GetLastValuesOfAllDevices()
         {
-            var allDevicesIds = _serverStorage.GetAllDeviceIds();
+            var allDevicesIds = _serverService.GetAllDeviceIds();
             var lastValues = new List<Merenja>();
 
             foreach (var id in allDevicesIds)
             {
+
+                if (id == null)
+                {
+                    Console.WriteLine("Upozorenje: Nadjen je null deviceId u listi");
+                    continue;
+                }
+
                 // Uzimamo merenja za svaki uredjaj
                 var data = GetMerenja(id);
 

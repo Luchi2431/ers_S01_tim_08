@@ -146,6 +146,9 @@
         "frameworks": {
           "net472": {
             "projectReferences": {
+              "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Applications\\Applications.csproj": {
+                "projectPath": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Applications\\Applications.csproj"
+              },
               "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Domain\\Domain.csproj"
               }

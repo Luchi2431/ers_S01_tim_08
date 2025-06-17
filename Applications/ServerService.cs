@@ -26,5 +26,15 @@ namespace Applications
         {
             return _storage.GetMerenjaByDevice(deviceId);
         }
+
+        public DateTime GetLastUpdateTime(string deviceId)
+        {
+            return _storage.GetLastUpdateTime(deviceId);
+        }
+
+        public List<string> GetAllDeviceIds()
+        {
+            return _storage.GetAllDeviceIds();
+        }
     }
 }

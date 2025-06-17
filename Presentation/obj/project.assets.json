@@ -39,6 +39,7 @@
       "Proxy/1.0.0": {
         "type": "project",
         "dependencies": {
+          "Applications": "1.0.0",
           "Domain": "1.0.0"
         },
         "compile": {

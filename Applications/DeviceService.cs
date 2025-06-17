@@ -12,12 +12,12 @@ namespace Applications
 {
     public class DeviceService
     {
-        private readonly IStorage _storage;
+        private readonly ServerService _serverService;
         private readonly Random _random = new Random();
 
-        public DeviceService(IStorage storage)
+        public DeviceService(ServerService serverService)
         {
-            _storage = storage;
+            _serverService = serverService;
         }
 
         public void StartAutoSending(string deviceId)
@@ -38,7 +38,7 @@ namespace Applications
                 TimeStamp = DateTime.UtcNow // Postavljamo trenutni UTC datum i vreme
             };
 
-            _storage.SaveMerenja(deviceId, merenje);
+            _serverService.PrimiMerenje(deviceId, merenje);
             Console.WriteLine($"[{DateTime.Now}] Poslato merenje za uređaj {deviceId}: {merenje.Tip} - {merenje.Vrednost}");
 
         }

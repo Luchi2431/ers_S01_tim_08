@@ -46,6 +46,10 @@
     <Compile Include="Services\ProxyService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Applications\Applications.csproj">
+      <Project>{A4A7102F-CD21-4D77-9B59-E77BD4973E6F}</Project>
+      <Name>Applications</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{EF4A87F1-FF04-420B-9F22-F5ED18CF3E07}</Project>
       <Name>Domain</Name>

@@ -6,9 +6,11 @@ C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\bin\Debug\net8.0\Pres
 C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\bin\Debug\net8.0\Applications.dll
 C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\bin\Debug\net8.0\Domain.dll
 C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\bin\Debug\net8.0\Proxy.dll
 C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\bin\Debug\net8.0\Applications.pdb
 C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\bin\Debug\net8.0\Domain.pdb
 C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\bin\Debug\net8.0\Proxy.pdb
 C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\obj\Debug\net8.0\Presentation.csproj.AssemblyReference.cache
 C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\obj\Debug\net8.0\Presentation.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfoInputs.cache
@@ -21,5 +23,3 @@ C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\obj\Debug\net8.0\refi
 C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\obj\Debug\net8.0\Presentation.pdb
 C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\obj\Debug\net8.0\Presentation.genruntimeconfig.cache
 C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\obj\Debug\net8.0\ref\Presentation.dll
-C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\bin\Debug\net8.0\Proxy.dll
-C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\bin\Debug\net8.0\Proxy.pdb

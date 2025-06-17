@@ -19,6 +19,9 @@ namespace Infrastructure
         //Cuvamo dobijena merenja
         public void SaveMerenja(string deviceId, Merenja merenje)
         {
+            if (string.IsNullOrEmpty(deviceId))
+                throw new ArgumentException("deviceId ne sme biti null ili prazan.");
+
             //Ako ne postoji uredjaj kreira se novi
             if (!_data.ContainsKey(deviceId))
                 _data[deviceId] = new List<Merenja>();
@@ -31,6 +34,8 @@ namespace Infrastructure
         //Uzimamo merenja
         public List<Merenja> GetMerenjaByDevice(string deviceId)
         {
+            if (string.IsNullOrEmpty(deviceId))
+                throw new ArgumentException("deviceId ne sme biti null ili prazan!");
             return _data.ContainsKey(deviceId) ? _data[deviceId] : new List<Merenja>();
         }
 
@@ -53,7 +58,9 @@ namespace Infrastructure
         //Vracamo sve ID-ove uredjaja(Sve Deviceove)
         public List<string> GetAllDeviceIds()
         {
-            return _data.Keys.ToList();
+            return _data.Keys
+                .Where(id => !string.IsNullOrEmpty(id))
+                .ToList();
         }
     }
 }
