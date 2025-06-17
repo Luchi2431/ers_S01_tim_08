@@ -35,6 +35,18 @@
         "runtime": {
           "bin/placeholder/Infrastructure.dll": {}
         }
+      },
+      "Proxy/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Proxy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Proxy.dll": {}
+        }
       }
     }
   },
@@ -53,13 +65,19 @@
       "type": "project",
       "path": "../Infrastructure/Infrastructure.csproj",
       "msbuildProject": "../Infrastructure/Infrastructure.csproj"
+    },
+    "Proxy/1.0.0": {
+      "type": "project",
+      "path": "../Proxy/Proxy.csproj",
+      "msbuildProject": "../Proxy/Proxy.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Applications >= 1.0.0",
       "Domain >= 1.0.0",
-      "Infrastructure >= 1.0.0"
+      "Infrastructure >= 1.0.0",
+      "Proxy >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -103,6 +121,9 @@
             },
             "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Infrastructure\\Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Infrastructure\\Infrastructure.csproj"
+            },
+            "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Proxy\\Proxy.csproj": {
+              "projectPath": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Proxy\\Proxy.csproj"
             }
           }
         }

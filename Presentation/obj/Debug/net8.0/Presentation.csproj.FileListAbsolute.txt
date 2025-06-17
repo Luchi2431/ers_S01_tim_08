@@ -21,3 +21,5 @@ C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\obj\Debug\net8.0\refi
 C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\obj\Debug\net8.0\Presentation.pdb
 C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\obj\Debug\net8.0\Presentation.genruntimeconfig.cache
 C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\obj\Debug\net8.0\ref\Presentation.dll
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\bin\Debug\net8.0\Proxy.dll
+C:\Users\Zdravo\OneDrive\Desktop\ERS Projekat\Presentation\bin\Debug\net8.0\Proxy.pdb

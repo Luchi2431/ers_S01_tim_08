@@ -97,6 +97,9 @@
               },
               "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Infrastructure\\Infrastructure.csproj"
+              },
+              "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Proxy\\Proxy.csproj": {
+                "projectPath": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Proxy\\Proxy.csproj"
               }
             }
           }
@@ -133,6 +136,25 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Proxy\\Proxy.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Proxy\\Proxy.csproj",
+        "projectName": "Proxy",
+        "projectPath": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Proxy\\Proxy.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\ERS Projekat\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

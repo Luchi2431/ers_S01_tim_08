@@ -49,7 +49,7 @@ namespace Proxy.Services
         {
             var merenja = _serverStorage.GetMerenjaByDevice(deviceId);
             var updated = _serverStorage.GetLastUpdateTime(deviceId);
-
+            
             _cache[deviceId] = new ProxyCacheItem
             {
                 Merenja = merenja,
@@ -71,8 +71,27 @@ namespace Proxy.Services
             }
         }
 
-        public 
-        
+        public List<Merenja> GetLastValuesOfAllDevices()
+        {
+            var allDevicesIds = _serverStorage.GetAllDeviceIds();
+            var lastValues = new List<Merenja>();
 
+            foreach (var id in allDevicesIds)
+            {
+                // Uzimamo merenja za svaki uredjaj
+                var data = GetMerenja(id);
+
+                // Proveravamo da li ima merenja za taj uredjaj
+                if (data.Any())
+                {
+                    // Uzimamo poslednje merenje za svaki uredjaj
+                    var last = data.OrderByDescending(m => m.TimeStamp).First();
+                    // Dodajemo ga u listu 
+                    lastValues.Add(last);
+                }
+            }
+            return lastValues;
+        }
+        
     }
 }

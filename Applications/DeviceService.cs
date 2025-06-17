@@ -6,17 +6,18 @@ using System.Text;
 using System.Threading.Tasks;
 using Domain.Models;
 using Domain.Enums;
+using Domain.Interfaces;
 
 namespace Applications
 {
     public class DeviceService
     {
-        private readonly ServerService _serverService;
+        private readonly IStorage _storage;
         private readonly Random _random = new Random();
 
-        public DeviceService(ServerService serverService)
+        public DeviceService(IStorage storage)
         {
-            _serverService = serverService;
+            _storage = storage;
         }
 
         public void StartAutoSending(string deviceId)
@@ -37,7 +38,7 @@ namespace Applications
                 TimeStamp = DateTime.UtcNow // Postavljamo trenutni UTC datum i vreme
             };
 
-            _serverService.PrimiMerenje(deviceId, merenje);
+            _storage.SaveMerenja(deviceId, merenje);
             Console.WriteLine($"[{DateTime.Now}] Poslato merenje za uređaj {deviceId}: {merenje.Tip} - {merenje.Vrednost}");
 
         }
