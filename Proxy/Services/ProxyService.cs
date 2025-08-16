@@ -16,6 +16,7 @@ namespace Proxy.Services
         private readonly ServerService _serverService;
         private readonly Dictionary<string, ProxyCacheItem> _cache = new Dictionary<string, ProxyCacheItem>();
         private readonly Timer _cleanupTimer;
+        private readonly object _cacheLock = new object(); // Lock za sinhronizaciju pristupa kešu
 
         public ProxyService(ServerService serverService)
         {
@@ -27,22 +28,24 @@ namespace Proxy.Services
 
         public List<Merenja> GetMerenja(string deviceId)
         {
-            //Provera da li je uredjaj u kesu
-            if (_cache.ContainsKey(deviceId))
-            {
-                var cacheItem = _cache[deviceId];
-                // Provera da li je kes azuriran
-                var serverLastUpdate = _serverService.GetLastUpdateTime(deviceId);
-                if (serverLastUpdate > cacheItem.LastUpdated)
+            lock(_cacheLock) { 
+                //Provera da li je uredjaj u kesu
+                if (_cache.ContainsKey(deviceId))
+                {
+                    var cacheItem = _cache[deviceId];
+                    // Provera da li je kes azuriran
+                    var serverLastUpdate = _serverService.GetLastUpdateTime(deviceId);
+                    if (serverLastUpdate > cacheItem.LastUpdated)
+                    {
+                        return RefreshFromServer(deviceId);
+                    }
+                    cacheItem.LastAccessed = DateTime.UtcNow; // Ažuriraj vreme pristupa
+                    return cacheItem.Merenja;
+                }
+                else
                 {
                     return RefreshFromServer(deviceId);
                 }
-                cacheItem.LastAccessed = DateTime.UtcNow; // Ažuriraj vreme pristupa
-                return cacheItem.Merenja;
-            }
-            else
-            {
-                return RefreshFromServer(deviceId);
             }
         }
 

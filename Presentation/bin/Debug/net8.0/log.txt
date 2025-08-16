@@ -1,14 +1,122 @@
-6/17/2025 1:43:30 PM: Sacuvano merenje za uredjaj 9a3d4d2a-1535-440c-a695-e171346d200b: 55.38390463500827 [ANALOGNA]
+6/18/2025 5:51:22 PM: Sacuvano merenje za uredjaj device2: 19.78385985872182 [DIGITALNA]
 
-6/17/2025 1:43:35 PM: Sacuvano merenje za uredjaj b58e6575-d705-4dcc-b383-e1e05ffff7e4: 18.9452247957976 [DIGITALNA]
+6/18/2025 5:51:27 PM: Sacuvano merenje za uredjaj device1: 19.700090111247558 [ANALOGNA]
 
-6/17/2025 1:43:40 PM: Sacuvano merenje za uredjaj b58e6575-d705-4dcc-b383-e1e05ffff7e4: 73.1231173893429 [ANALOGNA]
+6/18/2025 5:51:32 PM: Sacuvano merenje za uredjaj device2: 84.62638934284597 [DIGITALNA]
 
-6/17/2025 1:53:15 PM: Sacuvano merenje za uredjaj uredjaj1: 81.1558577875524 [DIGITALNA]
+6/18/2025 5:51:37 PM: Sacuvano merenje za uredjaj device1: 55.552679183785024 [ANALOGNA]
 
-6/17/2025 1:53:20 PM: Sacuvano merenje za uredjaj uredjaj2: 55.81432026612072 [DIGITALNA]
+6/18/2025 5:51:42 PM: Sacuvano merenje za uredjaj device1: 22.440099025263095 [ANALOGNA]
 
-6/17/2025 1:53:25 PM: Sacuvano merenje za uredjaj uredjaj2: 23.954242197082408 [ANALOGNA]
+6/18/2025 5:52:33 PM: Sacuvano merenje za uredjaj device1: 33.28224206857917 [ANALOGNA]
 
-6/17/2025 1:53:30 PM: Sacuvano merenje za uredjaj uredjaj1: 76.11820427232043 [ANALOGNA]
+6/18/2025 5:52:38 PM: Sacuvano merenje za uredjaj device1: 72.60452169540082 [DIGITALNA]
+
+6/18/2025 5:52:43 PM: Sacuvano merenje za uredjaj device1: 91.52410369645855 [DIGITALNA]
+
+6/18/2025 5:52:48 PM: Sacuvano merenje za uredjaj device1: 96.05924696989777 [DIGITALNA]
+
+6/18/2025 5:52:53 PM: Sacuvano merenje za uredjaj device1: 70.44004559462589 [DIGITALNA]
+
+6/18/2025 5:52:58 PM: Sacuvano merenje za uredjaj device2: 27.379334359873564 [ANALOGNA]
+
+6/18/2025 5:53:03 PM: Sacuvano merenje za uredjaj device1: 54.202962654330186 [DIGITALNA]
+
+6/18/2025 5:53:08 PM: Sacuvano merenje za uredjaj device1: 33.26289124982943 [DIGITALNA]
+
+6/18/2025 5:53:36 PM: Sacuvano merenje za uredjaj device1: 89.20556313190494 [DIGITALNA]
+
+6/18/2025 5:53:41 PM: Sacuvano merenje za uredjaj device2: 71.66284104454105 [ANALOGNA]
+
+6/18/2025 5:53:46 PM: Sacuvano merenje za uredjaj device2: 26.297363623870705 [ANALOGNA]
+
+6/18/2025 5:53:51 PM: Sacuvano merenje za uredjaj device2: 14.690730969731923 [ANALOGNA]
+
+6/18/2025 5:53:56 PM: Sacuvano merenje za uredjaj device1: 77.93200410446926 [ANALOGNA]
+
+6/18/2025 5:54:01 PM: Sacuvano merenje za uredjaj device2: 27.127734450608575 [ANALOGNA]
+
+6/18/2025 5:54:06 PM: Sacuvano merenje za uredjaj device1: 45.4984246621138 [DIGITALNA]
+
+6/18/2025 6:17:14 PM: Sacuvano merenje za uredjaj device1: 1.3638944047917878 [ANALOGNA]
+
+6/18/2025 6:17:19 PM: Sacuvano merenje za uredjaj device1: 63.36035609796596 [DIGITALNA]
+
+6/18/2025 6:17:24 PM: Sacuvano merenje za uredjaj device2: 2.062015251579885 [DIGITALNA]
+
+6/18/2025 6:17:29 PM: Sacuvano merenje za uredjaj device2: 26.47415857394232 [DIGITALNA]
+
+6/18/2025 6:17:34 PM: Sacuvano merenje za uredjaj device1: 16.26873382730335 [ANALOGNA]
+
+6/18/2025 6:17:39 PM: Sacuvano merenje za uredjaj device2: 82.28767825911847 [DIGITALNA]
+
+6/18/2025 6:17:44 PM: Sacuvano merenje za uredjaj device2: 23.952984041579896 [ANALOGNA]
+
+6/18/2025 6:17:44 PM: Sacuvano merenje za uredjaj device1: 3.120671939399011 [ANALOGNA]
+
+8/16/2025 3:24:45 PM: Sacuvano merenje za uredjaj device2: 24.47135226793562 [ANALOGNA]
+
+8/16/2025 3:24:50 PM: Sacuvano merenje za uredjaj device1: 74.7941686873533 [DIGITALNA]
+
+8/16/2025 3:25:57 PM: Sacuvano merenje za uredjaj device1: 1.0666715890304213 [ANALOGNA]
+
+8/16/2025 3:26:02 PM: Sacuvano merenje za uredjaj device2: 89.06601249565843 [ANALOGNA]
+
+8/16/2025 3:26:07 PM: Sacuvano merenje za uredjaj device2: 8.134883319733433 [DIGITALNA]
+
+8/16/2025 3:26:12 PM: Sacuvano merenje za uredjaj device2: 48.93644891973739 [DIGITALNA]
+
+8/16/2025 3:26:17 PM: Sacuvano merenje za uredjaj device2: 34.142089030213405 [DIGITALNA]
+
+8/16/2025 3:26:22 PM: Sacuvano merenje za uredjaj device1: 76.17637785464096 [DIGITALNA]
+
+8/16/2025 3:26:27 PM: Sacuvano merenje za uredjaj device1: 47.16166554514595 [DIGITALNA]
+
+8/16/2025 3:26:32 PM: Sacuvano merenje za uredjaj device1: 78.55238052386969 [DIGITALNA]
+
+8/16/2025 3:41:16 PM: Sacuvano merenje za uredjaj device1: 94.65862792571976 [DIGITALNA]
+
+8/16/2025 3:41:21 PM: Sacuvano merenje za uredjaj device1: 69.02971479012778 [DIGITALNA]
+
+8/16/2025 3:41:26 PM: Sacuvano merenje za uredjaj device1: 65.56406705155493 [ANALOGNA]
+
+8/16/2025 3:41:31 PM: Sacuvano merenje za uredjaj device2: 5.816311913870498 [DIGITALNA]
+
+8/16/2025 3:41:36 PM: Sacuvano merenje za uredjaj device1: 26.711990776805106 [DIGITALNA]
+
+8/16/2025 4:14:12 PM: Sacuvano merenje za uredjaj device1: 93.18494079538752 [DIGITALNA]
+
+8/16/2025 4:14:12 PM: Sacuvano merenje za uredjaj device2: 41.606593651547016 [ANALOGNA]
+
+8/16/2025 4:14:17 PM: Sacuvano merenje za uredjaj device2: 63.91362485456493 [ANALOGNA]
+
+8/16/2025 4:14:17 PM: Sacuvano merenje za uredjaj device1: 79.29163982035202 [DIGITALNA]
+
+8/16/2025 4:14:22 PM: Sacuvano merenje za uredjaj device1: 67.92731464816437 [DIGITALNA]
+
+8/16/2025 4:14:22 PM: Sacuvano merenje za uredjaj device2: 3.150397661640081 [DIGITALNA]
+
+8/16/2025 4:14:27 PM: Sacuvano merenje za uredjaj device2: 93.88634198593296 [ANALOGNA]
+
+8/16/2025 4:14:27 PM: Sacuvano merenje za uredjaj device1: 48.68010039298585 [ANALOGNA]
+
+8/16/2025 4:16:05 PM: Sacuvano merenje za uredjaj device2: 77.78863607996436 [ANALOGNA]
+
+8/16/2025 4:16:05 PM: Sacuvano merenje za uredjaj device1: 32.716266580823586 [ANALOGNA]
+
+8/16/2025 4:16:10 PM: Sacuvano merenje za uredjaj device1: 35.3220552483368 [ANALOGNA]
+
+8/16/2025 4:16:10 PM: Sacuvano merenje za uredjaj device2: 38.70187471456481 [DIGITALNA]
+
+8/16/2025 4:16:15 PM: Sacuvano merenje za uredjaj device1: 80.55687647693777 [DIGITALNA]
+
+8/16/2025 4:16:15 PM: Sacuvano merenje za uredjaj device2: 94.89281949411124 [ANALOGNA]
+
+8/16/2025 4:16:20 PM: Sacuvano merenje za uredjaj device2: 66.39972093523322 [ANALOGNA]
+
+8/16/2025 4:16:20 PM: Sacuvano merenje za uredjaj device1: 41.332805688797144 [ANALOGNA]
+
+8/16/2025 4:16:25 PM: Sacuvano merenje za uredjaj device1: 54.249738799467 [DIGITALNA]
+
+8/16/2025 4:16:25 PM: Sacuvano merenje za uredjaj device2: 87.77720239002589 [DIGITALNA]
 

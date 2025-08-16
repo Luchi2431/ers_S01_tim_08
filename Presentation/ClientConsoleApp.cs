@@ -23,9 +23,10 @@ namespace Presentation
                 Console.Clear();
                 Console.WriteLine("Proxy klijent aplikacija");
                 Console.WriteLine("1. Prikaz svih merenja za uredjaj");
-                Console.WriteLine("2. Prikaz poslednjeg merenja za sve uredjaje");
-                Console.WriteLine("3. Prikazi sva analogna merenja");
-                Console.WriteLine("4. Prikazi sva digitalna merenja");
+                Console.WriteLine("2. Prikaz poslednjeg merenja za uredjaj");
+                Console.WriteLine("3. Prikaz poslednjeg merenja za sve uredjaje");
+                Console.WriteLine("4. Prikazi sva analogna merenja");
+                Console.WriteLine("5. Prikazi sva digitalna merenja");
                 Console.WriteLine("0. Izlaz");
                 Console.Write("Izaberite opciju: ");
                 var input = Console.ReadLine();
@@ -82,7 +83,19 @@ namespace Presentation
 
         private void PrikazPoslednjegMerenjaZaUredjaj()
         {
-                
+            Console.WriteLine("Unesi Id za uredjaj");
+            var deviceId = Console.ReadLine();
+            var merenja = _proxyService.GetMerenja(deviceId);
+
+            if (merenja.Count == 0)
+            {
+                Console.WriteLine("Nema merenja za ovaj uredjaj");
+                return;
+            }
+
+            var last = merenja.OrderByDescending(m => m.TimeStamp).FirstOrDefault();
+            Console.WriteLine($"Poslednje merenje za uredjaj {deviceId} je: ${last.Id}, {last.Vrednost}, {last.TimeStamp}, {last.Tip}");
+
         }
 
         private void PrikaziPoslednjaMerenjaSvihUredjaja()
@@ -124,10 +137,10 @@ namespace Presentation
             var digitalnaMerenja = _proxyService.GetAllDigital();
             if (digitalnaMerenja.Count == 0)
             {
-                Console.WriteLine("Nema analognih merenja");
+                Console.WriteLine("Nema digitalnih merenja");
                 return;
             }
-            Console.WriteLine("Sva analogna merenja:");
+            Console.WriteLine("Sva digitalna merenja:");
             foreach (var mer in digitalnaMerenja)
             {
                 Console.WriteLine($"Id Uredjaja:{mer.Id},Tip merenja:{mer.Tip}," +
