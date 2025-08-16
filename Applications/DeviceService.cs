@@ -39,7 +39,6 @@ namespace Applications
             };
 
             _serverService.PrimiMerenje(deviceId, merenje);
-            Console.WriteLine($"[{DateTime.Now}] Poslato merenje za uređaj {deviceId}: {merenje.Tip} - {merenje.Vrednost}");
 
         }
     }

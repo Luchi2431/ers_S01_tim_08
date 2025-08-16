@@ -1,4 +1,5 @@
 ﻿using Applications;
+using Domain.Enums;
 using Domain.Interfaces;
 using Domain.Models;
 using System;
@@ -99,6 +100,32 @@ namespace Proxy.Services
                 }
             }
             return lastValues;
+        }
+
+        public List<Merenja> GetAllAnalog()
+        {
+            var allDevicesIds = _serverService.GetAllDeviceIds();
+            var analogValues = new List<Merenja>();
+
+            foreach (var id in allDevicesIds)
+            {
+                var merenja = GetMerenja(id); //Koristi kes ili server
+                analogValues.AddRange(merenja.Where(m => m.Tip == TipMereneVrednosti.ANALOGNA));
+            }
+            return analogValues;
+        }
+
+        public List<Merenja> GetAllDigital()
+        {
+            var allDevicesIds = _serverService.GetAllDeviceIds();
+            var digitalValues = new List<Merenja>();
+
+            foreach ( var id in allDevicesIds)
+            {
+                var merenja = GetMerenja(id);
+                digitalValues.AddRange(merenja.Where(m => m.Tip == TipMereneVrednosti.DIGITALNA));
+            }
+            return digitalValues;
         }
         
     }
